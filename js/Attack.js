@@ -4,7 +4,7 @@ const keyCodes = [LEFT, UP, RIGHT, DOWN] = [37, 38, 39, 40]
 let keyActions = {}
 
 // Global var
-const GAME_DURATION = 10
+const GAME_DURATION = 100
 let [score, bestScore, interval] = [0, 0, GAME_DURATION]
 let firstMove = true
 let clock
