@@ -25,7 +25,7 @@ backgroundObj.image.src = "images/sky.png"
 // Plane
 const planeObj = { speed: 400, width: 80, height: 80, image: new Image(), ready: false }
 planeObj.image.onload = () => planeObj.ready = true
-planeObj.image.src = "images/plane.png"
+planeObj.image.src = "images/plane1.png"
 
 // Bird 
 const birdObj = { width: 60, height: 32, image: new Image(), ready: false }
